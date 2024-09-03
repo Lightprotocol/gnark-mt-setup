@@ -62,7 +62,7 @@ The coordinator is responsible for managing the setup process.
 
 Executed once:
 
-1. In light-protocol monorepo, run:
+1. In light-protocol monorepo, checkout: [swen/t-setup](https://github.com/Lightprotocol/light-protocol/blob/swen/t-setup/scripts/tsc-create-r1cs.sh), then run:
    ```
    ./scripts/tsc-create-r1cs.sh
    ```
