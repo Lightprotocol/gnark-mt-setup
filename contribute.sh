@@ -3,22 +3,22 @@
 set -e
 
 # Usage:
-# ./contribute.sh <contribution_number> "<contributor_name>" "url1" "url2" ...
+# ./contribute.sh <contribution_number> "<contributor_name>" <15_download_urls> <15_upload_urls> <contribution_upload_url>
 
-# 18
-if [ $# -lt 1 ]; then
-    echo "Error: Incorrect number of arguments. Usage: $0 <contribution_number> <contributor_name> <url1> <url2> ..."
+if [ $# -ne 33 ]; then
+    echo "Error: Incorrect number of arguments. Expected 33 arguments."
+    echo "Usage: $0 <contribution_number> <contributor_name> <15_download_urls> <15_upload_urls> <contribution_upload_url>"
     exit 1
 fi
-
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-REPO_ROOT="$( cd "$SCRIPT_DIR/.." && pwd )"
-cd "$REPO_ROOT"
-
 
 CONTRIBUTION_NUMBER=$1
 CONTRIBUTOR_NAME=$2
 shift 2
+
+# Create directories in the current working directory
+INPUT_DIR="./input"
+OUTPUT_DIR="./output"
+mkdir -p "$INPUT_DIR" "$OUTPUT_DIR"
 
 PH2_FILES=(
     "inclusion_26_1.ph2"
@@ -37,10 +37,6 @@ PH2_FILES=(
     "combined_26_4_1.ph2"
     "combined_26_4_2.ph2"
 )
-
-INPUT_DIR="$REPO_ROOT/ceremony/contribute/ph2-files"
-OUTPUT_DIR="$REPO_ROOT/ceremony/contribute/outputs"
-mkdir -p "$INPUT_DIR" "$OUTPUT_DIR"
 
 echo "Downloading files..."
 for i in "${!PH2_FILES[@]}"; do
@@ -135,3 +131,5 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "All files uploaded successfully."
+echo "Input files are stored in $INPUT_DIR"
+echo "Output files and contribution file are stored in $OUTPUT_DIR"
