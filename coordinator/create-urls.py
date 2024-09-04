@@ -46,7 +46,7 @@ PH2_FILES = [
     "combined_26_4_2",
 ]
 
-print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/ec03f0df732b347eff78a18d2c0b929f/raw/c1cb7240dca26058b31c9d8a839efa43e73bf3d6/light-trusted-setup-contribute.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
+print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/8284d36f92a566bb5b9cd30ba06e3f84/raw/70ed983c46ebca7d7d42b46cc682607809cf74b7/setup-contribute.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
 
 # Download URLs for current number
 for file in PH2_FILES:
