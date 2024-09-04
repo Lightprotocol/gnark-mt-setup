@@ -15,7 +15,7 @@ CONTRIBUTION_NUMBER=$1
 CONTRIBUTOR_NAME=$2
 shift 2
 
-# Create directories in the current working directory
+# Create directories
 INPUT_DIR="./input"
 OUTPUT_DIR="./output"
 mkdir -p "$INPUT_DIR" "$OUTPUT_DIR"
@@ -39,13 +39,11 @@ PH2_FILES=(
 )
 
 echo "Downloading files..."
-for i in "${!PH2_FILES[@]}"; do
-    file="${PH2_FILES[$i]}"
+for file in "${PH2_FILES[@]}"; do
     url="$1"
     shift
-    output_file="$INPUT_DIR/${file%.ph2}_${CONTRIBUTOR_NAME}_contribution_${CONTRIBUTION_NUMBER}.ph2"
     echo "Downloading $file from $url"
-    curl -f -S -o "$output_file" "$url"
+    curl -f -S -o "$INPUT_DIR/$file" "$url"
     echo "Successfully downloaded $file"
 done
 
@@ -91,22 +89,36 @@ else
     cd semaphore-mtb-setup
 fi
 cd "$REPO_ROOT"
-CONTRIB_FILE="$OUTPUT_DIR/${CONTRIBUTOR_NAME}_CONTRIBUTION_${CONTRIBUTION_NUMBER}.txt"
-> "$CONTRIB_FILE"
 
-for ph2_file in "$INPUT_DIR"/*_${CONTRIBUTOR_NAME}_contribution_${CONTRIBUTION_NUMBER}.ph2; do
-    base_name=$(basename "$ph2_file" "_${CONTRIBUTOR_NAME}_contribution_${CONTRIBUTION_NUMBER}.ph2")
-    new_contribution=$((CONTRIBUTION_NUMBER + 1))
-    output_file="${base_name}_${CONTRIBUTOR_NAME}_contribution_${new_contribution}.ph2"
+# Ensure OUTPUT_DIR exists, create if necessary
+if [ ! -d "$OUTPUT_DIR" ]; then
+    mkdir -p "$OUTPUT_DIR" || { echo "Failed to create $OUTPUT_DIR. Check permissions."; exit 1; }
+fi
+
+CONTRIB_FILE="$OUTPUT_DIR/${CONTRIBUTOR_NAME}_CONTRIBUTION_${CONTRIBUTION_NUMBER}.txt"
+
+# Create or overwrite the contribution file
+if [ -f "$CONTRIB_FILE" ]; then
+    echo "Warning: Overwriting existing contribution file."
+fi
+
+> "$CONTRIB_FILE" || { echo "Failed to create/clear $CONTRIB_FILE. Check permissions."; exit 1; }
+
+echo "Contribution file prepared: $CONTRIB_FILE"
+
+for ph2_file in "$INPUT_DIR"/*.ph2; do
+    base_name=$(basename "$ph2_file")
+    output_file="$OUTPUT_DIR/${base_name%.ph2}_${CONTRIBUTOR_NAME}_contribution_$((CONTRIBUTION_NUMBER + 1)).ph2"
     
     echo "Contributing to $ph2_file"
-    contribution_hash=$(./semaphore-mtb-setup/semaphore-mtb-setup p2c "$ph2_file" "$OUTPUT_DIR/$output_file")
+    contribution_hash=$(./semaphore-mtb-setup/semaphore-mtb-setup p2c "$ph2_file" "$output_file")
     
     echo "$base_name $contribution_hash" >> "$CONTRIB_FILE"
     echo "Contribution hash for $base_name: $contribution_hash"
 done
 
 echo "All contributions completed. Hashes stored in $CONTRIB_FILE"
+
 echo "Uploading new .ph2 files..."
 for file in "${PH2_FILES[@]}"; do
     url="$1"
