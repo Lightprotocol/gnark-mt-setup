@@ -3,8 +3,8 @@ import sys
 import boto3
 from botocore.exceptions import ClientError
 
-def create_presigned_url(bucket_name, object_key, expiration, http_method='GET'):
-    s3_client = boto3.client('s3', region_name='eu-central-1')
+def create_presigned_url(bucket_name, object_key, expiration, region_name, http_method='GET'):
+    s3_client = boto3.client('s3', region_name=region_name)
     try:
         return s3_client.generate_presigned_url(
             'get_object' if http_method == 'GET' else 'put_object',
@@ -16,17 +16,18 @@ def create_presigned_url(bucket_name, object_key, expiration, http_method='GET')
         print(f"Error creating presigned URL: {e}")
         return None
 
-if len(sys.argv) < 5:
-    print("Usage: python3 ./coordinator/create-urls.py <bucket_name> <current_user> <current_number> <last_user>")
+if len(sys.argv) < 7:
+    print("Usage: python3 ./coordinator/create-urls.py <bucket_name> <current_user> <last_number> <last_user> <expiration_seconds> <region_name>")
     sys.exit(1)
 
 bucket_name = sys.argv[1]
 current_user = sys.argv[2]
-current_number = int(sys.argv[3])
+last_number = int(sys.argv[3])
 last_user = sys.argv[4]
+expiration = int(sys.argv[5])
+region_name = sys.argv[6]
 
-next_number = current_number + 1
-expiration = 3600
+current_number = last_number + 1
 
 PH2_FILES = [
     "inclusion_26_1",
@@ -46,21 +47,32 @@ PH2_FILES = [
     "combined_26_4_2",
 ]
 
-print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/8284d36f92a566bb5b9cd30ba06e3f84/raw/70ed983c46ebca7d7d42b46cc682607809cf74b7/setup-contribute.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
+# Section 1: Command for running from gist
+print("Section 1: Command for running from gist")
+print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/1f2ff26d03bc7165ea6fbbde0da4bd19/raw/ec3886e78c88ce437f8c6debd46fd7779b7d6afb/test-6.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
 
-# Download URLs for current number
-for file in PH2_FILES:
-    download_file = f"{file}_{last_user}_contribution_{current_number}.ph2"
-    url = create_presigned_url(bucket_name, download_file, expiration)
-    print(f"\"{url}\"", end=" ")
+urls = []
 
-# Upload URLs for next number
+# Download URLs for last number
 for file in PH2_FILES:
-    upload_file = f"{file}_{current_user}_contribution_{next_number}.ph2"
-    url = create_presigned_url(bucket_name, upload_file, expiration, http_method='PUT')
+    download_file = f"{file}_{last_user}_contribution_{last_number}.ph2"
+    url = create_presigned_url(bucket_name, download_file, expiration, region_name)
     print(f"\"{url}\"", end=" ")
+    urls.append(url)
+
+# Upload URLs for current number
+for file in PH2_FILES:
+    upload_file = f"{file}_{current_user}_contribution_{current_number}.ph2"
+    url = create_presigned_url(bucket_name, upload_file, expiration, region_name, http_method='PUT')
+    print(f"\"{url}\"", end=" ")
+    urls.append(url)
 
 # Add URL for contribution file (assuming this is an upload)
 contrib_file = f"{current_user}_CONTRIBUTION_{current_number}.txt"
-url = create_presigned_url(bucket_name, contrib_file, expiration, http_method='PUT')
+url = create_presigned_url(bucket_name, contrib_file, expiration, region_name, http_method='PUT')
 print(f"\"{url}\"")
+urls.append(url)
+
+# Section 2: Command for running contribute.sh locally
+print("\n\nSection 2: Command for running contribute.sh locally")
+print(f"./contribute.sh {current_number} \"{current_user}\" " + " ".join(f"\"{url}\"" for url in urls))

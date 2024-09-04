@@ -1,2 +1,5 @@
 venv/**
 verifications/**
+input/**
+output/**
+semaphore-mtb-setup
