@@ -100,7 +100,7 @@ This command will output two sections:
 - Copy one of these outputs to clipboard and share it with the next contributor via a secure channel.
 - Once the contributor has uploaded their new ph2 files, verify the new contributions by running:
   ```
-  ./coordinator/verify_contributions.py <bucket_name> <region_name>
+  python3 coordinator/verify_contributions.py <bucket_name> <region_name>
   ```
 This will download all new ph2 files and store them and their hashes in the ./contributions folder.
 - git push the latest diff (contribution) to this repo.

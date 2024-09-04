@@ -183,14 +183,25 @@ done
 echo "All contributions completed. Hashes stored in $CONTRIB_FILE"
 
 echo "Uploading new .ph2 files..."
-for ph2_file in "$OUTPUT_DIR"/*.ph2; do
-    url="$1"
-    shift
-    echo "Uploading $(basename "$ph2_file")..."
-    echo "URL: $url"
-    if ! curl -f -S -X PUT -T "$ph2_file" "$url"; then
-        echo "Error uploading $(basename "$ph2_file"). Exiting."
-        exit 1
+for ph2_file_name in "${PH2_FILES[@]}"; do
+    output_file="$OUTPUT_DIR/${ph2_file_name}_${CONTRIBUTOR_NAME}_contribution_${CONTRIBUTION_NUMBER}.ph2"
+    if [ -f "$output_file" ]; then
+        url="$1"
+        shift
+        expected_filename="${ph2_file_name}_${CONTRIBUTOR_NAME}_contribution_${CONTRIBUTION_NUMBER}.ph2"
+        if [[ "$url" == *"$expected_filename"* ]]; then
+            echo "Uploading $(basename "$output_file")..."
+            echo "URL: $url"
+            if ! curl -f -S -X PUT -T "$output_file" "$url"; then
+                echo "Error uploading $(basename "$output_file"). Exiting."
+                exit 1
+            fi
+        else
+            echo "Error: URL doesn't match expected filename for $ph2_file_name. Skipping."
+        fi
+    else
+        echo "Warning: Expected file $output_file not found. Skipping."
+        shift
     fi
 done
 

@@ -65,7 +65,7 @@ PH2_FILES= [
 
 # Section 1: Command for running from gist
 print("Section 1: Command for running from gist")
-print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/2ff6ee0c88b110dd6260868abefad6ca/raw/980a28326661725803ddc217edd9a3cd8a874903/light-tsc-contribute.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
+print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/ecb0b3786941ce00b93902dd76dd9da7/raw/ddc9f6a896b3ba279e1ee8009fc6feb901db730b/light-tsc-contribute.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
 
 urls = []
 
