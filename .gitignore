@@ -3,3 +3,4 @@ verifications/**
 input/**
 output/**
 semaphore-mtb-setup
+verify_logs/**

@@ -67,11 +67,14 @@ def verify_ph2_files(out_file, initial_contribution):
     print(f"Verifying {out_file}")
     try:
         result = subprocess.run([semaphore_mtb_setup, "p2v", out_file, initial_contribution], capture_output=True, text=True, timeout=300)
-        print(f"Verification completed with return code {result.returncode}")
-        return result.returncode == 0, result.stdout, result.stderr
+        success = result.returncode == 0
+        status = "SUCCESS" if success else "FAILURE"
+        print(f"Verification {status}")
+        return success, result.stdout, result.stderr
     except subprocess.TimeoutExpired:
-        print("Verification timed out after 5 minutes")
+        print(f"TIMEOUT: Verification timed out after 5 minutes for {out_file}")
         return False, "", "Verification timed out after 5 minutes"
+
 
 
 PH2_FILES = [
@@ -131,7 +134,7 @@ def verify_contribution(contributions_dir, verify_logs_dir, subdir, file):
         if not success:
             return f"Verification failed for {file_path}"
     
-    return f"Verified {number:04d} {name}"
+    return f"Verified {number:04d} {name}. For more details, check {log_file}"
 
 def main(bucket_name, region_name, local=False):
     contributions_dir = "./contributions/"

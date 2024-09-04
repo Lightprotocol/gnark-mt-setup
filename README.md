@@ -25,25 +25,17 @@ For (1) we are using the [Perpetual Powers of Tau ceremony](https://github.com/p
 
 ## How to Verify
 
-### Requirements to verify
+### As a non-coordinator
 
 - Python 3.10+
-- Install Git: [Git Installation Guide](https://github.com/git-guides/install-git)
-- Install Go: [Go Installation Guide](https://go.dev/doc/install)
+- Git: [Git Installation Guide](https://github.com/git-guides/install-git)
+- Go: [Go Installation Guide](https://go.dev/doc/install)
+- Curl
 - Minimum 16GB RAM 
-- Download [Semaphore-mtb-setup](https://github.com/worldcoin/semaphore-mtb-setup):
-   ```
-   # move one up
-   cd ../ 
-   git clone https://github.com/worldcoin/semaphore-mtb-setup
-   ```
-   ```
-   cd semaphore-mtb-setup && go build -v && cd ../
-   ```
 
-Now run the verification of all previous contributions:
+Run the verification of all previous contributions:
 
-0. Download this repo
+0. Download this repo or pull the latest commits.
    ```
    git clone https://github.com/Lightprotocol/gnark-mt-setup.git
    ```
@@ -58,13 +50,14 @@ Now run the verification of all previous contributions:
    ```
    python3 coordinator/verify_contributions.py --local
    ```
-3. Check the contribution hashes in ```./contributions/hashes``` against those attested to by the contributors.
+3. Check the contribution hashes in ```./contributions/hashes``` or in the log files (verify_logs) against those attested to by the respectiveparticipants.
+
 
 ## Coordinator Section
 
 The coordinator is responsible for managing the setup process.
 
-These steps have been executed once:
+### These steps have been executed once (Do not run again)
 
 1. In light-protocol monorepo, checkout: [swen/t-setup](https://github.com/Lightprotocol/light-protocol/blob/swen/t-setup/scripts/tsc-create-r1cs.sh), then run:
    ```
@@ -76,17 +69,30 @@ These steps have been executed once:
 3. Rename the initial contributions (phase 2 files) in the format: `<circuit_name><your_name>_contribution_0.ph2`
 4. Upload them to the AWS S3 bucket.
 
-
-Now, for every contributor:
+### These steps must be repeated for every contribution:
 
 - Use the coordinator script to create presigned URLs and manage contributions:
   ```
   brew install awscli && aws configure
   ```
-Ensure you have an AWS access key and use the correct region_name in the following scripts.
+Ensure you have a valid AWS access key for the bucket used and use the correct region_name in the following scripts.
 
+0. Requirements:
+- Python 3.10+
+- Git: [Git Installation Guide](https://github.com/git-guides/install-git)
+- Go: [Go Installation Guide](https://go.dev/doc/install)
+- Curl 
+
+1. Activate the virtual environment:
+   ```
+   python3 -m venv venv
+   source venv/bin/activate
+   pip3 install boto3
+   ```
+
+2. Create presigned URLs:
   ```
-  python3 coordinator/create-urls.py <bucket_name> <next_contributor_name> <last_contribution_number> <last_contributor_name> <region_name>
+  python3 coordinator/create-urls.py <bucket_name> <next_contributor_name> <last_contribution_number> <last_contributor_name> <expiration_seconds> <region_name>
   ```
 This command will output two sections: 
 1) a curl command that will exeucte a gist with presigned URLs (recommmended)
@@ -99,11 +105,13 @@ This command will output two sections:
 This will download all new ph2 files and store them and their hashes in the ./contributions folder.
 - git push the latest diff (contribution) to this repo.
 
-Now, anyone can verify the new contribution without AWS access by running:
+Now, anyone can verify the new contribution without AWS access by pulling the latest commit and running:
 
 ```
-./coordinator/verify_contributions.py --local
+python3 coordinator/verify_contributions.py --local
 ```
+
+Repeat this process for every new contribution. Before you create and send new presigned URLs, make sure to have verified against the AWS bucket and git pushed the latest diff to this repo.
 
 ## Thank You
 
