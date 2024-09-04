@@ -20,6 +20,24 @@ INPUT_DIR="./input"
 OUTPUT_DIR="./output"
 mkdir -p "$INPUT_DIR" "$OUTPUT_DIR"
 
+PH2_FILES=(
+    "inclusion_26_1"
+    "inclusion_26_2"
+    "inclusion_26_3"
+    "inclusion_26_4"
+    "inclusion_26_8"
+    "non-inclusion_26_1"
+    "non-inclusion_26_2"
+    "combined_26_1_1"
+    "combined_26_1_2"
+    "combined_26_2_1"
+    "combined_26_2_2"
+    "combined_26_3_1"
+    "combined_26_3_2"
+    "combined_26_4_1"
+    "combined_26_4_2"
+)
+
 echo "Downloading files..."
 for i in {1..15}; do
     url="$1"
@@ -35,6 +53,76 @@ for i in {1..15}; do
     fi
     echo "Successfully downloaded $filename"
 done
+
+# Function to install git
+install_git() {
+    OS_TYPE=$(uname -s | tr '[:upper:]' '[:lower:]')
+    
+    if [ "$OS_TYPE" = "darwin" ]; then
+        if ! command -v brew &> /dev/null; then
+            echo "Homebrew not found. Installing Homebrew..."
+            /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        fi
+        echo "Installing git using Homebrew..."
+        brew install git
+    elif [ "$OS_TYPE" = "linux" ]; then
+        if [ -f /etc/debian_version ]; then
+            echo "Installing git using apt..."
+            sudo apt update
+            sudo apt install -y git
+        elif [ -f /etc/redhat-release ]; then
+            echo "Installing git using yum..."
+            sudo yum install -y git
+        else
+            echo "Unsupported Linux distribution. Please install git manually."
+            exit 1
+        fi
+    else
+        echo "Unsupported OS: $OS_TYPE"
+        exit 1
+    fi
+}
+
+# Function to install go
+install_go() {
+    OS_TYPE=$(uname -s | tr '[:upper:]' '[:lower:]')
+    
+    if [ "$OS_TYPE" = "darwin" ]; then
+        if ! command -v brew &> /dev/null; then
+            echo "Homebrew not found. Installing Homebrew..."
+            /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        fi
+        echo "Installing go using Homebrew..."
+        brew install go
+    elif [ "$OS_TYPE" = "linux" ]; then
+        if [ -f /etc/debian_version ]; then
+            echo "Installing go using apt..."
+            sudo apt update
+            sudo apt install -y golang
+        elif [ -f /etc/redhat-release ]; then
+            echo "Installing go using yum..."
+            sudo yum install -y golang
+        else
+            echo "Unsupported Linux distribution. Please install go manually."
+            exit 1
+        fi
+    else
+        echo "Unsupported OS: $OS_TYPE"
+        exit 1
+    fi
+}
+
+# Check if git is installed
+if ! command -v git &> /dev/null; then
+    echo "git not found. Installing git..."
+    install_git
+fi
+
+# Check if go is installed
+if ! command -v go &> /dev/null; then
+    echo "go not found. Installing go..."
+    install_go
+fi
 
 # Clone and build semaphore-mtb-setup
 TEMP_DIR=$(mktemp -d)
@@ -59,7 +147,13 @@ fi
 
 for ph2_file in "$INPUT_DIR"/*.ph2; do
     base_name=$(basename "$ph2_file")
-    output_file="$OUTPUT_DIR/${base_name%.ph2}_${CONTRIBUTOR_NAME}_contribution_$CONTRIBUTION_NUMBER.ph2"
+    file_base=$(basename "$ph2_file" .ph2)
+    for ph2_file_name in "${PH2_FILES[@]}"; do
+        if [[ $file_base == ${ph2_file_name}* ]]; then
+            output_file="$OUTPUT_DIR/${ph2_file_name}_${CONTRIBUTOR_NAME}_contribution_${CONTRIBUTION_NUMBER}.ph2"
+            break
+        fi
+    done
     
     echo "Contributing to $ph2_file"
     if ! contribution_hash=$(./semaphore-mtb-setup p2c "$ph2_file" "$output_file"); then

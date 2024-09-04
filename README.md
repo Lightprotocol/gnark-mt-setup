@@ -33,6 +33,8 @@ For (1) we are using the [Perpetual Powers of Tau ceremony](https://github.com/p
 - Minimum 16GB RAM 
 - Download [Semaphore-mtb-setup](https://github.com/worldcoin/semaphore-mtb-setup):
    ```
+   # move one up
+   cd ../ 
    git clone https://github.com/worldcoin/semaphore-mtb-setup
    ```
    ```
@@ -48,7 +50,9 @@ Now run the verification of all previous contributions:
 
 1. Activate the virtual environment:
    ```
+   python3 -m venv venv
    source venv/bin/activate
+   pip3 install boto3
    ```
 2. Run the verification script:
    ```
@@ -60,7 +64,7 @@ Now run the verification of all previous contributions:
 
 The coordinator is responsible for managing the setup process.
 
-Executed once:
+These steps have been executed once:
 
 1. In light-protocol monorepo, checkout: [swen/t-setup](https://github.com/Lightprotocol/light-protocol/blob/swen/t-setup/scripts/tsc-create-r1cs.sh), then run:
    ```
@@ -79,16 +83,27 @@ Now, for every contributor:
   ```
   brew install awscli && aws configure
   ```
+Ensure you have an AWS access key and use the correct region_name in the following scripts.
+
   ```
-  ./coordinator/create-urls.sh <bucket_name> <next_contributor_name> <contribution_number> <previous_contributor_name>
+  python3 coordinator/create-urls.py <bucket_name> <next_contributor_name> <last_contribution_number> <last_contributor_name> <region_name>
   ```
-- Copy the command's output (a curl script with presigned URLs) to clipboard and share it with the next contributor via a secure channel.
-- Once the contributor has uploaded their ph2 files, verify the new contributions by running:
+This command will output two sections: 
+1) a curl command that will exeucte a gist with presigned URLs (recommmended)
+2) a command to run it without curl, but inside this repo (not recommended)
+- Copy one of these outputs to clipboard and share it with the next contributor via a secure channel.
+- Once the contributor has uploaded their new ph2 files, verify the new contributions by running:
   ```
-  ./coordinator/verify_contributions.py <bucket_name>
+  ./coordinator/verify_contributions.py <bucket_name> <region_name>
   ```
-- git push the latest contribution to this repo.
-  
+This will download all new ph2 files and store them and their hashes in the ./contributions folder.
+- git push the latest diff (contribution) to this repo.
+
+Now, anyone can verify the new contribution without AWS access by running:
+
+```
+./coordinator/verify_contributions.py --local
+```
 
 ## Thank You
 

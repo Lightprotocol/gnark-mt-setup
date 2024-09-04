@@ -49,7 +49,7 @@ PH2_FILES = [
 
 # Section 1: Command for running from gist
 print("Section 1: Command for running from gist")
-print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/1f2ff26d03bc7165ea6fbbde0da4bd19/raw/ec3886e78c88ce437f8c6debd46fd7779b7d6afb/test-6.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
+print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/96a641d78a3fa95c4b71da3cab63b343/raw/9d33f3833e90df41d459cdb5ac5bc9391845b139/sergey2.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
 
 urls = []
 
