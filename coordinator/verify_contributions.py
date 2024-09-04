@@ -138,7 +138,7 @@ def verify_contribution(contributions_dir, verify_logs_dir, subdir, file):
     
     for ph2_file in PH2_FILES:
         file_path = os.path.join(contributions_dir, subdir, f"{ph2_file}.ph2")
-        initial_contribution = os.path.join(contributions_dir, "0000_swen", f"{ph2_file}.ph2")
+        initial_contribution = os.path.join(contributions_dir, "0000_initial", f"{ph2_file}.ph2")
 
         success, stdout, stderr = verify_ph2_files(file_path, initial_contribution)
         result_msg = f"Verification of {file_path}: {'Success' if success else 'Failed'}"
