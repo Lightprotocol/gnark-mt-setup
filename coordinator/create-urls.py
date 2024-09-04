@@ -29,7 +29,8 @@ region_name = sys.argv[6]
 
 current_number = last_number + 1
 
-PH2_FILES = [
+
+PH2_FILES= [
     "inclusion_26_1",
     "inclusion_26_2",
     "inclusion_26_3",
@@ -37,19 +38,34 @@ PH2_FILES = [
     "inclusion_26_8",
     "non-inclusion_26_1",
     "non-inclusion_26_2",
+    "non-inclusion_26_3",
+    "non-inclusion_26_4",
+    "non-inclusion_26_8",
     "combined_26_1_1",
     "combined_26_1_2",
+    "combined_26_1_4",
+    "combined_26_1_8",
     "combined_26_2_1",
     "combined_26_2_2",
+    "combined_26_2_4",
+    "combined_26_2_8",
     "combined_26_3_1",
     "combined_26_3_2",
+    "combined_26_3_4",
+    "combined_26_3_8",
     "combined_26_4_1",
     "combined_26_4_2",
+    "combined_26_4_4",
+    "combined_26_4_8",
+    "combined_26_8_1",
+    "combined_26_8_2",
+    "combined_26_8_4",
+    "combined_26_8_8",
 ]
 
 # Section 1: Command for running from gist
 print("Section 1: Command for running from gist")
-print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/96a641d78a3fa95c4b71da3cab63b343/raw/9d33f3833e90df41d459cdb5ac5bc9391845b139/sergey2.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
+print(f"curl -sL https://gist.githubusercontent.com/SwenSchaeferjohann/2ff6ee0c88b110dd6260868abefad6ca/raw/980a28326661725803ddc217edd9a3cd8a874903/light-tsc-contribute.sh | bash -s -- {current_number} \"{current_user}\"", end=" ")
 
 urls = []
 

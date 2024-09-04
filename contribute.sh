@@ -3,11 +3,11 @@
 set -e
 
 # Usage:
-# ./contribute.sh <contribution_number> "<contributor_name>" <15_download_urls> <15_upload_urls> <contribution_upload_url>
+# ./contribute.sh <contribution_number> "<contributor_name>" <30_download_urls> <30_upload_urls> <contribution_upload_url>
 
-if [ $# -ne 33 ]; then
-    echo "Error: Incorrect number of arguments. Expected 33 arguments."
-    echo "Usage: $0 <contribution_number> <contributor_name> <15_download_urls> <15_upload_urls> <contribution_upload_url>"
+if [ $# -ne 63 ]; then
+    echo "Error: Incorrect number of arguments. Expected 63 arguments."
+    echo "Usage: $0 <contribution_number> <contributor_name> <30_download_urls> <30_upload_urls> <contribution_upload_url>"
     exit 1
 fi
 
@@ -28,18 +28,33 @@ PH2_FILES=(
     "inclusion_26_8"
     "non-inclusion_26_1"
     "non-inclusion_26_2"
+    "non-inclusion_26_3"
+    "non-inclusion_26_4"
+    "non-inclusion_26_8"
     "combined_26_1_1"
     "combined_26_1_2"
+    "combined_26_1_4"
+    "combined_26_1_8"
     "combined_26_2_1"
     "combined_26_2_2"
+    "combined_26_2_4"
+    "combined_26_2_8"
     "combined_26_3_1"
     "combined_26_3_2"
+    "combined_26_3_4"
+    "combined_26_3_8"
     "combined_26_4_1"
     "combined_26_4_2"
+    "combined_26_4_4"
+    "combined_26_4_8"
+    "combined_26_8_1"
+    "combined_26_8_2"
+    "combined_26_8_4"
+    "combined_26_8_8"
 )
 
 echo "Downloading files..."
-for i in {1..15}; do
+for i in {1..30}; do
     url="$1"
     shift
     

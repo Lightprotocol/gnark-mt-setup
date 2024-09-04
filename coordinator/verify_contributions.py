@@ -77,7 +77,7 @@ def verify_ph2_files(out_file, initial_contribution):
 
 
 
-PH2_FILES = [
+PH2_FILES= [
     "inclusion_26_1",
     "inclusion_26_2",
     "inclusion_26_3",
@@ -85,14 +85,29 @@ PH2_FILES = [
     "inclusion_26_8",
     "non-inclusion_26_1",
     "non-inclusion_26_2",
+    "non-inclusion_26_3",
+    "non-inclusion_26_4",
+    "non-inclusion_26_8",
     "combined_26_1_1",
     "combined_26_1_2",
+    "combined_26_1_4",
+    "combined_26_1_8",
     "combined_26_2_1",
     "combined_26_2_2",
+    "combined_26_2_4",
+    "combined_26_2_8",
     "combined_26_3_1",
     "combined_26_3_2",
+    "combined_26_3_4",
+    "combined_26_3_8",
     "combined_26_4_1",
     "combined_26_4_2",
+    "combined_26_4_4",
+    "combined_26_4_8",
+    "combined_26_8_1",
+    "combined_26_8_2",
+    "combined_26_8_4",
+    "combined_26_8_8",
 ]
 
 def download_file_worker(bucket_name, region_name, file, subfolder):
