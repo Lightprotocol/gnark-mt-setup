@@ -18,7 +18,7 @@ For (1) we are using the [Perpetual Powers of Tau ceremony](https://github.com/p
 
 1. (Recommended) Verify the current contribution you're building on using the verification script. (See "How to Verify")
 2. Run the contribute curl command sent to you by the coordinator:
-   - Executes the `./contribute.sh` gist (looks like [this](https://gist.github.com/SwenSchaeferjohann/ec03f0df732b347eff78a18d2c0b929f)) script with your name/pseudonym, the contribution number, and the presigned URLs received from the coordinator.
+   - Executes the `./contribute.sh` gist ([here](https://gist.githubusercontent.com/SwenSchaeferjohann/ecb0b3786941ce00b93902dd76dd9da7/raw/ddc9f6a896b3ba279e1ee8009fc6feb901db730b/light-tsc-contribute.sh)) script with your name/pseudonym, the contribution number, and the presigned URLs received from the coordinator.
    - The scripts downloads dependencies, the last contribution, adds your own, and uploads the result to the coordinator's s3 bucket.
 3. Please store your contribution hash and attest to it (e.g., social media, PGP signed email).
 4. Take steps to defend against attacks as you deem necessary, e.g. by wiping your RAM/SSD after you're done.
