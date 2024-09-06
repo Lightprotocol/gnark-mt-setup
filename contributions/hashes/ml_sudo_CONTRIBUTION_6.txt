@@ -1,0 +1,150 @@
+combined_26_1_1_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  80af4957b75a9d51c0e7c842cafde495be3bc3752661b4cd397aed2c1f305a9c
+combined_26_1_2_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  d205566c10ba41b019f23aaff115bf38b1a705f51d1ca257097a619f12cec3ce
+combined_26_1_4_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  37228a6d0b945f7a648d8c1436e72956e83ddfe59f0290b65e5b040c2d291f02
+combined_26_1_8_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  71d318e07ab314217426cc6b990b8cb55f31b21790d0a5bae200cbc55c8a585b
+combined_26_2_1_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  7be0c949814783d714f795c2781c9d1a462607322ba71b8fcedda67fa040277f
+combined_26_2_2_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  d8fde361a0f0a65c04d088c5c3ecdb065ff04def7db2671285cd3267f7aaf650
+combined_26_2_4_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  4733b81104b111aad5c279f60e7889e681961fe26c752be685a04aa41724e764
+combined_26_2_8_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  b8397da0e3194f016064e9d14c81e54e1aee716ee68d2d2c151f4bdce3fa1363
+combined_26_3_1_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  3079c6aa590f750390d3cb49e8137ec325a6a53e660cc688864c5971f4ffe6e7
+combined_26_3_2_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  d13e441424aba3457d9c05883d92dad41b6e0e2129f8003a98bfa8e5b7644ef1
+combined_26_3_4_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  60b772e60954e366a60b5e226c3482da088e2956a69dd74a27e67a6bc66e9837
+combined_26_3_8_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  49d30b6ba329bfa29b6cc223524d74342c8377d9e21a5ced05dd2499bf229831
+combined_26_4_1_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  ffe73b7cc6fd02e1c679b06ef0b8a9c26d6e1a48b7f76674799a7b41f9f5de54
+combined_26_4_2_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  260841e5b8b46a961998b6abdc9eba033249702d2bf42fabffff9ffc81feae22
+combined_26_4_4_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  5f0aabdfc0c3d11f90a4ba66816a560b18587f342ee2a939d38300d861b0ffd5
+combined_26_4_8_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  ac14ca715023471aafdeaff1202c2f9ad6e55553e6594354906fe4103e1f63b9
+combined_26_8_1_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  3650a64db1d614d52841b8fcbc6da6739f255631901774e522de4b4e40364d0a
+combined_26_8_2_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  31e8ae840c6d1d76065914733c12792bef360815e8fd92c83a2ef839bb4c73d4
+combined_26_8_4_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  7406b69f8ea7e5d754d079d6420a9f0eaa2df9a81d99e4fca8bf31749bb6f653
+combined_26_8_8_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  bd42c773ac02b2ed134773abd3a9c5d940f30c04a0f6f5cd892108e189d98a6e
+inclusion_26_1_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  e92c4e79eae3bf6d1ece2b06f67dab8ea2681f6ddc0566f8959681ed5125d23a
+inclusion_26_2_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  3031d1d8894b3aa0f61eb92e951baf7c9fdde48bed38fca224a343e029b38a0a
+inclusion_26_3_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  3638e1f6e43d60705590bd58e239e5ebb6887b0a3c92920b499454c7493232ba
+inclusion_26_4_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  58ec6c7383fa747dae14f17c416419c1e34f4c93b2c75ae8190d25136da6d1bb
+inclusion_26_8_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  ab17753480869f971324d453ff309922afd2ad3557dbe01bd0718977206035ca
+non-inclusion_26_1_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  2711c7fcd7931e47cf6857ed881d418e0bb802d01f58e66a071a146496703f7d
+non-inclusion_26_2_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  b57d9340b7591f65a217f985b5d4952b327181d12f13fd376ec76fb1f263f5cb
+non-inclusion_26_3_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  04181b10dd712333591c43bdf4029ae6652175f499fa8bda6fa6ec5ac9c49f82
+non-inclusion_26_4_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  32d61131e7337e4d47a2cf2a35ffc57c0f3b9feb1284a0f5a79d50abf0899589
+non-inclusion_26_8_jordaaash_contribution_5.ph2 Current #Contributions := 5
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  a10c7e977ad9782fceab9929ac061f97a05a52ed03d154369ac843bdfb96652c
