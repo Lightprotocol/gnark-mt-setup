@@ -1,0 +1,150 @@
+combined_26_1_1_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  bbfebfed3af790cc6d6f427701cec0de9071bc796bb551a3e6c5536d2c98fe04
+combined_26_1_2_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  5d5ecb79b6838c63c4ccff2a2cb1a85fb3ec257413b8496b9297798de75067c5
+combined_26_1_4_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  e891248ada5ed99219f1152ad8bcf5c4856eb7f789c3307654fa20f294299c2f
+combined_26_1_8_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  084a3a6da1f73b6aed98335218f7ea28368a1754c4ac6ca6718104a3add9752d
+combined_26_2_1_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  ab0b428276b73b161e68456f393567951991dc30041d9273d902e7190ad2a681
+combined_26_2_2_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  bdb993963f735551ea8dd57a26a8c884c49074b261db6110864eeb775a4f3895
+combined_26_2_4_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  f24ba4e50791ff5cc01f45a0171ed39345f64ddfb8ebf41e97a1523fb62b559c
+combined_26_2_8_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  a1350050e10c7826b518e665f1d9e1ab96c456b82b5cdd30375b648e27a1b066
+combined_26_3_1_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  6f382ebf73722adfe8763287e3e6ac0761504b86732183ec1df154a60edc11c7
+combined_26_3_2_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  a363aaaec1a9ccf90f101cb07f3c1af12521d9a238a079db3277156dbfc4a502
+combined_26_3_4_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  9a4af1bb81785bf78ffa70f26d87823477a8fbc3ad40835aba08bcb6b31f2426
+combined_26_3_8_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  97a7bbab6404040a29e4db247331d56b20962b95d2d213a91db8b2e089522fbd
+combined_26_4_1_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  ff14e3eae98e2dfa92d7e4c7ca4b48afd0e07163fe673e098e7b146a34905eba
+combined_26_4_2_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  720bff2bedd882b7a40c91ecad2c6e41446cd81886a2562e5808782ea66490ea
+combined_26_4_4_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  027033ddb67cc863be68b7c966418fe6898e379ab475559d28e7799651285aca
+combined_26_4_8_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  1577c7f1b183cc8e101bd8990d1e794c2322a3455b533c11d86a65611a60d41d
+combined_26_8_1_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  3798e739915dff7a4c43a0fc18e69acd096f7306995d91019f13336d10f1bcbd
+combined_26_8_2_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  6ef35e0af907045f9e0138ec044daedca856d44c893bab1a8010a552909519e3
+combined_26_8_4_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  71113153aad30d6e8f324aba218be88c1e9fc7cf7034216e3a947e06e68ae46d
+combined_26_8_8_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  8cc990e4c37bded38bf7b388a3bbac33e6bd748041b6827bafd39fe7282e937c
+inclusion_26_1_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  5685bda060ee41760da7cc8e88e5113f6169c5c06b7ea595bc7fe2e23e0c9a4f
+inclusion_26_2_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  5c46a1348dc7a949b5558fd856b6aa7831520984d5cf7b7628d262fc73bcbe86
+inclusion_26_3_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  dcd999aabcf36e38d6e8ff74ce87f85cf70c8c37801801176f5a061240115ff4
+inclusion_26_4_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  112cc7ed04d67d54346265dd89070e3c95a58da71adfd438fa0b358bdd363709
+inclusion_26_8_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  025fbcf10766d48496f1d67d206c94eef2e4f24b43852257201f0f1d85eb07d3
+non-inclusion_26_1_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  0f071734d972bc99845e956bfea4aaa6a86e5ae8c81e87d8c81e4b83b030dbf3
+non-inclusion_26_2_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  6a9b17fe533aec98e6ccd680fefaafb36371074d4416da98d0eb5622b7a2e064
+non-inclusion_26_3_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  864897813cef7480ca6c3e7c5170d881bd091b65649c5bedc42e9d427a2c6c88
+non-inclusion_26_4_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  8f0f8b3edfc2020d159bef42bb52cd20eb62d00670b93e555953e5dabb7d27cc
+non-inclusion_26_8_samkimcrypto_contribution_14.ph2 Current #Contributions := 14
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  6f974aaaa166c7282a15b602f51b7c5ba6256eb8f9414b43e8ae61dffe7c3e8e
