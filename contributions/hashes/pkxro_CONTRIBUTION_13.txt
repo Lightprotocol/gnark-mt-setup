@@ -1,0 +1,150 @@
+combined_26_1_1_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  63267dfc19c170400f4109dc75b8a0982e759faccac702c3b4c031e3ea713c98
+combined_26_1_2_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  d6a60a2ead9d31af05cbeec1db82725efb69f8fcf4bfef5ad31747e05cfcdba3
+combined_26_1_4_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  6cedfb6724a109667f3c84aa938dd7f98ab6256b9e4562988d3523cf10ebe53e
+combined_26_1_8_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  83cc2bf5a3c913352922c505b42af8571f8b9dae8c5eab7311e1b30ab9035901
+combined_26_2_1_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  b42eefa971afb85908f4de17f554161355422fd24704b55c858aac9f74640a01
+combined_26_2_2_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  bb36199c504000ec7405a055678817980c4d3898b15babc56e03f103137510a6
+combined_26_2_4_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  72f704de52fbe939a163594d4929981e07756c64a4feb31985e94ec17a7a8575
+combined_26_2_8_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  06aee3a68c3b58662068ea6dcd3342b0c0ac42c0bc3a003d4e1037d30ac38063
+combined_26_3_1_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  00a600cd68857271fc93a6630b1f76eb66e7f651a92d3e6ef37ced02c207e83e
+combined_26_3_2_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  16b904020b0f0883cf92c2859f8fb81d2da4347799d3f4eaae121c117bc7d2e3
+combined_26_3_4_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  4894d5457e46c12e7c45854ca448095f34ca7b92b87a855cb232b92287b5245f
+combined_26_3_8_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  83463524a6b8747ead3843e3f79492d36e6ae376d19852a77df824a08b91d68c
+combined_26_4_1_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  74507721a84bfdff00f3d73288310a64cd436a352d9aa2bd7b4143e441b6ee58
+combined_26_4_2_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  917b04cf156138cedb8b735e86a7bc8829eba6355ffc4d5899dc82d8ee8d3f75
+combined_26_4_4_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  3424f7c27df552396cabb707f2fe09e3742545711b5d5feb60ca97fe68ba6b7c
+combined_26_4_8_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  48a72d9a3767d12ff29bbefcd73d7695d00d7c2c5e225c1957da8f77f0f6efbd
+combined_26_8_1_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  07662c9cbeef9bd8a7ed008ec956078d662ba37776ad0cdceefe1a907c6ecb4e
+combined_26_8_2_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  73ac92d02acac19fc537cb5ba32e615c7eec629933d20004764a2f26342ad429
+combined_26_8_4_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  ef9827f3a14870b865dcbbc3dea788243c3109250ff806aa86cf8cabb4c4ecb6
+combined_26_8_8_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  094f01a61b2b0ecf5b67b99253a8b5bdc2c23afb399dff1be7cb3be4f8b9abbd
+inclusion_26_1_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  3eddc252b6fe59f114a5950bf62696eeade1e29b66216e3273b10b0399739df5
+inclusion_26_2_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  67fce52698cd6d8c0fa7b2750b154699976fa94097ffb0b824ffc7d04206b537
+inclusion_26_3_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  ac21504809aa551c62999c90d23849aae586963b507d6ee687d3551e9f9901b9
+inclusion_26_4_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  446f199518f9682f7face1e186d25f1309d1ce1bb8760feaf28b96c1473ec424
+inclusion_26_8_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  a3e0328130d5ca70c7d09b76889c3315df4cc168c04995396f06ac7467804f9c
+non-inclusion_26_1_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  45d65295c9676425bed964644ec8b31225164b72e4dd9e2ad5a664ebb5333730
+non-inclusion_26_2_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  25d52705f9f2a3d34a180ba63d6a1739b3f5a4d50a52b29862b3061c36165ad1
+non-inclusion_26_3_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  de070f4a08594d70fdc9753709e10db62960e9a7a0f1bc73f6d20e97d85965c7
+non-inclusion_26_4_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  5e3d4ad83c05a2551a8197c2afac226060378f521cf38994ac1e89fd1ca32a31
+non-inclusion_26_8_sphere_dirichlet_contribution_12.ph2 Current #Contributions := 12
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  7e3dfbbce4db1bd2963c09f17c30824e8fae1ab082bbe66da8b04a39612a97a7
