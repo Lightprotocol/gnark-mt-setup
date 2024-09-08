@@ -1,0 +1,150 @@
+combined_26_1_1_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  e14fb3d118be6d9ef0c6c68e510c9df9907cdf9ba625783168232b5273a278e8
+combined_26_1_2_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  5096be0983c2f1c4e5972103e9ab413af9878ac1cb08ff1a424a7865cc9a2c3b
+combined_26_1_4_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  8556e67cc644212507b507b2c07792b0c62d31c16906a8e713ec3ca2db1a8dad
+combined_26_1_8_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  92272f6ea884d1e2717e9a0e91a5c9cace939fb47643a192e1f86ecdd2e05f5a
+combined_26_2_1_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  62c7134faaca5dcf49bb54278849490bbcdd56b7a1bd8eb1f1343032b90e94d6
+combined_26_2_2_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  7322e9c73d7e2e667f8e391ba1abac4837d0680c25b792f723ae1c74f058baa9
+combined_26_2_4_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  079710a25c3670a37539d3db888f55988cd64dbae6a41371c9519eaf539a8cc8
+combined_26_2_8_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  27696018b7fbc44368a9774504d5032ba9cd0237a374f5deeed240f7dd5b419f
+combined_26_3_1_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  a45cff35fd3084f332d464789ebdf99ccf64393144cdf92c5cee82511d1a3eec
+combined_26_3_2_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  726f7962e75026950648c99e62374dfc0972cf87cf9843a21fda9d0eeb4daf28
+combined_26_3_4_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  07383820ffd4f414ee859c4b1ec5e99420fdd4ea1891a22d996e0e4d44f3855a
+combined_26_3_8_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  bf5be7a595063e024f26f4925674bb501b11b1c8060bba7da6a3989344d6ec30
+combined_26_4_1_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  d6e7e6683fa248b3a8ae1187c1c7fc97712ce439ceaaf7fd2283b42905b66398
+combined_26_4_2_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  47bf4256000d0ab95971bf79954f9a7eb0e6c2c8135790648df4a0706af56a6a
+combined_26_4_4_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  501f38ba2080919123823d2cddc94a5ce45683a0b8b971e920978aaf1f865ffd
+combined_26_4_8_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  0d1b77b8853a74866a2207b58b59bf8a0c2d315429f5bc8a3f150539b4321b49
+combined_26_8_1_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  d03497226b0c0cd69a0bcb5a41147510f9fbe0ffc3a6868439441bc50d5dc7d0
+combined_26_8_2_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  9d1addd3be2a7fa19193984b107d5f9b012c642466bfdfe39064faf7e74cb92c
+combined_26_8_4_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  3530b5d25ea731001f6895951975de69a8e24361ee24fa93432ef4a0383e5ac7
+combined_26_8_8_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  bce376a006d318beb6f87eecc5bde1dfbd8b1033685973874cbe081fc573078c
+inclusion_26_1_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  666e93dce33bd1e34dd219767553ad47d834136c86e5a75e26140f480a556fde
+inclusion_26_2_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  4cf00dddf2051ce4a3e801a40418a4e2b94ccf901ef0659a3dcf4a271b8cc614
+inclusion_26_3_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  e67e08bfc305561913623f683898f9456244c160da11fe78e65fe9ff864f9938
+inclusion_26_4_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  ad5a65f6a1b28ed8084e65009eb9bd0477bd675932f55ef1058d8e106a0ba502
+inclusion_26_8_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  f99799b9ba994105d1bec4b23ec23de54d668cae2cd4634a16a988ef41b20540
+non-inclusion_26_1_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  8f9f6120b3ae298328d182d04f09c56c303b5ba67688a3b86ee19757c992b5c3
+non-inclusion_26_2_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  14742c8ca5288575145d8689f8b949495e4549477714d488b5da54c10ee73798
+non-inclusion_26_3_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  8cda5395f94888a10935a69f7c2359eeb9317034f6024b4a0cdea675b432aa5a
+non-inclusion_26_4_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  4d56defae14b70e69b3080e930fe535a67437382b808c030d17f72c58ede7ee1
+non-inclusion_26_8_pedro_mantica_contribution_15.ph2 Current #Contributions := 15
+Sampling toxic parameters Delta
+Processing DeltaG1 and DeltaG2
+Contirbution has been successful!
+Contribution Hash :=  86f9a47381d644286d5c85d2feb6afdbee30b9f47df32ff87c122aeb0094f614
