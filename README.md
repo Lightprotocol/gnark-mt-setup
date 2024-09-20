@@ -6,7 +6,7 @@ Groth16 proofs require a two-phase trusted setup:
 * (1) Universal "Powers of Tau" ceremony (phase 1)
 * (2) Circuit-specific setup (phase 2)
 
-For (1) we are using the [Perpetual Powers of Tau ceremony](https://github.com/privacy-scaling-explorations/perpetualpowersoftau) (up to contribution #54) via the s3 hosted bucket in the [snarkjs repo](https://github.com/iden3/snarkjs/blob/master/README.md#7-prepare-phase-2) README. We used a deserializer built by the Worldcoin team to convert it from the .ptau format into the .ph1 format used by gnark and initialized a phase 2 using Worldcoin's [fork](https://github.com/worldcoin/semaphore-mtb-setup) of a ceremony coordinator wrapper on top of gnark built by the [zkbnb](https://github.com/bnb-chain/zkbnb-setup/) team.
+For (1) we are using the [Perpetual Powers of Tau ceremony](https://github.com/privacy-scaling-explorations/perpetualpowersoftau?tab=readme-ov-file#prepared-and-truncated-files) (up to contribution #80). We used a deserializer built by the Worldcoin team to convert it from the .ptau format into the .ph1 format used by gnark and initialized a phase 2 using Worldcoin's [fork](https://github.com/worldcoin/semaphore-mtb-setup) of a ceremony coordinator wrapper on top of gnark built by the [zkbnb](https://github.com/bnb-chain/zkbnb-setup/) team.
 
 ## How to Participate in the Trusted Setup
 
